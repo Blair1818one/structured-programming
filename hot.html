@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AgroFuture</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --main-green: #4caf50;
+      --dark-green: #2e7d32;
+      --light-green: #e8f5e9;
+      --white: #ffffff;
+      --gray: #f0f0f0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: var(--gray);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--main-green);
+      color: var(--white);
+      text-align: center;
+      padding: 40px 20px;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    nav {
+      background: var(--dark-green);
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    section h2 {
+      color: var(--dark-green);
+      margin-bottom: 20px;
+      font-size: 1.8em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .icon {
+      color: var(--main-green);
+    }
+
+    .profile-card {
+      background: var(--light-green);
+      padding: 20px;
+      border-left: 5px solid var(--main-green);
+      margin-bottom: 20px;
+      border-radius: 6px;
+    }
+
+    .news-list li {
+      margin-bottom: 10px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact-form button {
+      margin-top: 15px;
+      background: var(--main-green);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .contact-form button:hover {
+      background: var(--dark-green);
+    }
+
+    footer {
+      background: var(--dark-green);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      header h1 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><i class="fas fa-leaf"></i> AgroFuture</h1>
+    <p>🌾 Growing a Better Tomorrow Through Smart Agriculture 🌾</p>
+  </header>
+
+  <nav>
+    <a href="#vision">Vision</a>
+    <a href="#mission">Mission</a>
+    <a href="#purpose">Purpose</a>
+    <a href="#impact">Impact</a>
+    <a href="#farmers">Farmers</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="vision">
+    <h2><i class="fas fa-eye icon"></i> Our Vision</h2>
+    <p>To transform African agriculture into a technology-driven, sustainable system that feeds nations and lifts communities out of poverty.</p>
+  </section>
+
+  <section id="mission">
+    <h2><i class="fas fa-bullseye icon"></i> Our Mission</h2>
+    <p>
+  </section>
+
+  <section id="purpose">
+    <h2><i class="fas fa-seedling icon"></i> Why This Website Exists</h2>
+      <p>AgroFuture is not just a site — it's a movement. We bring together farmers, innovators, students, and policymakers to create lasting agricultural solutions that matter today and tomorrow.</p>
+  </section>
+
+  <section id="impact">
+    <h2><i class="fas fa-hand-holding-heart icon"></i> Social Impact</h2>
+    <ul>
+      <li>🌱 Educates rural farmers in climate-smart practices</li>
+      <li>📉 Reduces food waste through smart supply chain tips</li>
+      <li>👩‍🌾 Empowers women and youth through agri-business training</li>
+      <li>🌍 Builds community resilience against climate change</li>
+    </ul>
+  </section>
+
+  <section id="farmers">
+    <h2><i class="fas fa-users icon"></i> Farmer Highlights</h2>
+
+    <div class="profile-card">
+      <h3>👩‍🌾 Mary N. – Kenya</h3>
+      <p>Mary grows organic crops using modern irrigation. She trains young women on eco-farming and earns from local markets and online sales.</p>
+    </div>
+
+    <div class="profile-card">
+      <h3>👨‍🌾 James K. – Uganda</h3>
+      <p>James switched to flood-resistant rice varieties and now supports 400+ families by mentoring and selling high-yield seeds.</p>
+    </div>
+  </section>
+
+  <section id="news">
+    <h2><i class="fas fa-newspaper icon"></i> Latest News</h2>
+    <ul class="news-list">
+      <li><strong>[Aug 2025]</strong> 🌾 New maize hybrid boosts yields in dry areas.</li>
+      <li><strong>[Aug 2025]</strong> 🚜 Free online training for youth agripreneurs now live.</li>
+      <li><strong>[Aug 2025]</strong> 🌍 East Africa Climate-Smart Farming Summit: Join now!</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2><i class="fas fa-envelope icon"></i> Contact Us</h2>
+    <form class="contact-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AgroFuture • Building Food Security and Opportunity</p>
+  </footer>
+
+</body>
+</html>
